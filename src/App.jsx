@@ -1,9 +1,13 @@
 import "./App.css";
+import Home from "./components/Home";
+import Sidenav from "./components/Sidenav";
+
 
 function App() {
   return (
     <main>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Sidenav />
+      <Home />
     </main>
   );
 }
